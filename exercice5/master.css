@@ -1,0 +1,23 @@
+#paraf1{
+  font: bold 12px Arial ;
+}
+
+#paraf2{
+  font-weight: 400;
+  font: italic 18px Verdana;
+}
+
+#paraf3{
+  font-size: 12px;
+  font-family: "Courier New";
+  background-color: cadetblue;
+  color: white;
+}
+
+#paraf4{
+  background-color: black;
+  text-decoration: underline;
+  text-align: right;
+  color: white;
+  font: 16px Verdana;
+}
