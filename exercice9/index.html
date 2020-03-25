@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 9</title>
+  </head>
+  <body>
+    <form class="" action="" method="post">
+    <fieldset>
+      <legend>Votre identité</legend>
+      <ol>
+        <li>
+          <label for="name">Nom</label><input type="text"  id="name" name="name" value="Prénom et nom">
+        </li>
+        <li>
+          <label for="mail">Email</label><input type="text" id="mail" name="mail" value="exemple@domaine.com">
+        </li>
+        <li>
+          <label for="tel">Téléphone</label><input type="text" id="tel" name="tel" value="par ex: 0600000000">
+        </li>
+      </ol>
+    </fieldset>
+
+    <fieldset>
+      <legend>Adresse de livraison</legend>
+      <ol>
+        <li>
+          <label for="adresse">Adresse</label><textarea name="adresse" rows="6" cols="20"></textarea>
+        </li>
+        <li>
+          <label for="codepost">Code postal</label><input type="text"  id="codepost" name="codepost">
+        </li>
+        <li>
+          <label for="pays">Pays</label><input type="text"  id="pays" name="pays">
+        </li>
+      </ol>
+    </fieldset>
+
+    <fieldset>
+      <legend>Information CB</legend>
+      <ol>
+        <li>
+        <fieldset>
+          <legend>Type de carte bancaire</legend>
+          <li>
+            <input type="radio" id="visa" name="visa" value="visa">
+             <label for="visa">Visa</label>
+          </li>
+          <li>
+            <input type="radio" id="amex" name="amex" value="amex">
+             <label for="amex">AmEx</label>
+           </li>
+          <li>
+            <input type="radio" id="mastercard" name="mastercard" value="mastercard">
+             <label for="mastercard">Mastercard</label>
+          </li>
+        </fieldset>
+      </li>
+        <li>
+          <label for="numcarte">N°de carte</label><input type="text"  id="numcarte" name="numcarte">
+        </li>
+        <li>
+          <label for="passeword">Code sécurité</label><input type="text"  id="passeword" name="passeword">
+        </li>
+        <li>
+          <label for="portname">Nom du porteur</label><input type="text" id="portname" name="porteur" value="Meme nom que sur la carte">  
+        </li>
+      </ol>
+    </fieldset>
+
+    <fieldset>
+      <input type=""submit"" name="submit" value="J'achète!">
+    </fieldset>
+    </form>
+  </body>
+</html>
