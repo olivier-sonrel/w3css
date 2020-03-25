@@ -1,0 +1,39 @@
+#l1{
+  background-color: silver;
+  font-weight: bolder;
+}
+#l2{
+  background-color: #E8DAEF;
+}
+#l3{
+  background-color: #FDEBD0;
+}
+#l4{
+  background-color: #FADBD8;
+}
+#l5{
+  background-color: #A3E4D7;
+}
+#l6{
+  background-color: #D7BDE2;
+}
+
+.col1{
+  width:70px;
+}
+
+table{
+  margin:auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #E5E7E9;
+}
+
+tr{
+  height: 50px;
+}
+
+td{
+  width: 230px;
+  padding-left: 10px;
+}
